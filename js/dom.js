@@ -41,3 +41,14 @@ tileStyle.style.backgroundColor = 'green';
 tileStyle.setAttribute('title', 'this is title');
 tileStyle.getAttribute('class');
 
+
+// style dom 
+const sections = document.querySelectorAll('section');
+
+for(const section of sections){
+    section.style.border = '2px solid purple';
+    section.style.borderRadius = '12px';
+    section.style.margin = '15px';
+    section.style.padding = '15px';
+}
+
