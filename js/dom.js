@@ -30,3 +30,14 @@ const fruitsCollection = document.querySelectorAll('.fruits_container li');
 for(const fruits of fruitsCollection){
     console.log(fruits.innerText);
 }
+
+
+// dom style 
+const tileStyle = document.getElementById('header_title');
+tileStyle.style.textAlign = 'center';
+tileStyle.style.backgroundColor = 'green';
+// document.getElementById('header_title').style.textAlign = 'center';
+
+tileStyle.setAttribute('title', 'this is title');
+tileStyle.getAttribute('class');
+
